@@ -1,6 +1,0 @@
-Task/Bugs
-1. While handling functions fail to write these ascii's
-2. BackSpace
-3. Adding History to the Control
-This is Right:- ^[[C
-This is Left:- ^[[D

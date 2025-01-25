@@ -1,8 +1,0 @@
-1. Mutex Locks Initialize
-Use them
-2. ReadPost
-3. pthread_cond, pthread_broadcast use
-4. Priorities of Friends Implementation
-5. Convert map<int,int> neighbors to set<int> neighbors;
-6. See to it that you make that after every 25 iterations of random nodes;
-Improve Graph Loading part; 

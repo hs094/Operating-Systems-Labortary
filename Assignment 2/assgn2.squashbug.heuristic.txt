@@ -1,0 +1,22 @@
+Report: Justification of Heuristic for Detecting Malware using "sb" Command
+
+Group-11:
+Hardik Pravin Soni (20CS30023)
+Yatharth Sameer (20CS30059)
+Subhajyoti Halder (20CS10064)
+Archit Mangrulkar (20CS10086)
+
+Introduction:
+The "sb" command is a tool to detect malicious processes in a system. This report justifies the heuristic used by the "sb" command, which considers high CPU usage, many child processes, and the time it runs.
+
+High CPU Usage:
+High CPU usage is a strong indicator of malicious behavior, as a process that spends much time on the CPU uses many resources. Malicious processes often use excessive CPU resources to perform malicious activities, such as encrypting files, sending data over the network, or attempting to spread to other systems. Monitoring CPU utilization can help identify these processes and reduce their impact on the system.
+
+A large number of Child Processes:
+A process that has spawned many child processes could be malicious, as it could be attempting to spread its impact across the system. Malicious processes often use this technique to infect multiple systems or evade detection. By counting the number of child processes, the "sb" command can identify processes attempting to spread and take appropriate action.
+
+The time it Runs:
+The time a process has been running is another important factor in determining its suspiciousness. Malicious processes often run for an extended period, whereas benign processes tend to run for shorter periods. By considering the run time of a process, the "sb" command can identify processes that have been running for an extended period, and that might be malicious.
+
+Conclusion:
+The heuristic used by the "sb" command is justified, as it considers three critical factors that could indicate malicious behavior: high CPU usage, many child processes, and the time it runs. By combining these factors, the "sb" command provides a comprehensive picture of the behavior of each process and helps identify the root of all trouble. This heuristic effectively detects malicious processes and reduces their impact on the system.

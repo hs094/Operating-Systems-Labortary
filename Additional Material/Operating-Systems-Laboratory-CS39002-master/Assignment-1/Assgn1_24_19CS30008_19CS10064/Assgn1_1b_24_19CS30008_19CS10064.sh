@@ -1,1 +1,0 @@
-mkdir 1.b.files.out;dir="1.b.files";f=($dir/*);for((i=0;i<${#f[@]};i++));do cat ${f[i]}|sort -n>1.b.files.out/${f[i]##*/};done;s=" ";ln="sort${s}-nm${s}1.b.files.out/*|uniq${s}-c|awk${s}'{print${s}\$2,\$1}'>1.b.out.txt";eval $ln

@@ -1,3 +1,0 @@
-1. Make Consumer and Producer Running
-2. Complete Optimisation
-3. handle Random

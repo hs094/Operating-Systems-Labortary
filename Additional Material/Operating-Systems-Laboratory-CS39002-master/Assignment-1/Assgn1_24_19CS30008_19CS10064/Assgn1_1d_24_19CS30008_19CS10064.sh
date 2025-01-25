@@ -1,1 +1,0 @@
-mkdir files_mod;f=($1/*);for((i=0;i<${#f[@]};i++));do awk '{print NR,$0}' ${f[i]}|sed 's/[[:blank:]]/,/g'>files_mod/${f[i]##*/};done

@@ -1,0 +1,4 @@
+1. Create a new folder named "output" before running
+2. Run Make
+3. open three termianls and run the three executables separately
+4. Also run with -optimise flag
