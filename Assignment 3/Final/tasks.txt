@@ -1,2 +1,0 @@
-1. Heurisitc
-2. And shm_int[2] se run karna
